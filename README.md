@@ -1,4 +1,5 @@
 # Internship-Task-3
+
 22/tcp	High	Deprecated SSH-1 protocol
 80/tcp	High	BASE input validation vulnerabilities (SQLi, XSS, LFI)
 22/tcp	Medium	Weak SSH encryption algorithms
@@ -7,12 +8,16 @@
 80/tcp	Medium	Apache httpOnly cookie exposure
 22/tcp	Low	Weak SSH MAC algorithms
 
-Critical Vulnerabilities
+Critical Vulnerabilities - 
+
+
 SSH-1 Protocol Enabled – severe encryption flaws enabling session hijack.
 BASE Input Validation Flaws – exploitable via SQL injection, XSS, LFI.
 phpMyAdmin XSS (Old Version) – allows HTML/script injection; high phishing risk.
 
-Mitigations that can use to counter the vulnerabilities.
+Mitigations that can use to counter the vulnerabilities - 
+
+
     Disable SSH-1 protocol
     Remove weak SSH ciphers and MACs
     Upgrade phpMyAdmin to the latest version
