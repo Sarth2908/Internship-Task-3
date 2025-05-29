@@ -1,5 +1,7 @@
 # Internship-Task-3
 
+I have scanned my network last month I am uploading that scan report, because I am facing the issues for OpenVas. I am trying to solve it from last 3 hours but the situation is still same. Sorry about that.
+
 22/tcp	High	Deprecated SSH-1 protocol
 80/tcp	High	BASE input validation vulnerabilities (SQLi, XSS, LFI)
 22/tcp	Medium	Weak SSH encryption algorithms
