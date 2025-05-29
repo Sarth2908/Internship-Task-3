@@ -2,20 +2,19 @@
 
 I have scanned my network last month I am uploading that scan report, because I am facing the issues for OpenVas. I am trying to solve it from last 3 hours but the situation is still same. Sorry about that.
 
-22/tcp	High	Deprecated SSH-1 protocol
-80/tcp	High	BASE input validation vulnerabilities (SQLi, XSS, LFI)
-22/tcp	Medium	Weak SSH encryption algorithms
-80/tcp	Medium	HTTP TRACE method enabled
-80/tcp	Medium	phpMyAdmin XSS vulnerability
-80/tcp	Medium	Apache httpOnly cookie exposure
-22/tcp	Low	Weak SSH MAC algorithms
+    22/tcp	High	Deprecated SSH-1 protocol
+    80/tcp	High	BASE input validation vulnerabilities (SQLi, XSS, LFI)
+    22/tcp	Medium	Weak SSH encryption algorithms
+    80/tcp	Medium	HTTP TRACE method enabled
+    80/tcp	Medium	phpMyAdmin XSS vulnerability
+    80/tcp	Medium	Apache httpOnly cookie exposure
+    22/tcp	Low	Weak SSH MAC algorithms
 
 Critical Vulnerabilities - 
 
-
-SSH-1 Protocol Enabled – severe encryption flaws enabling session hijack.
-BASE Input Validation Flaws – exploitable via SQL injection, XSS, LFI.
-phpMyAdmin XSS (Old Version) – allows HTML/script injection; high phishing risk.
+    SSH-1 Protocol Enabled – severe encryption flaws enabling session hijack.
+    BASE Input Validation Flaws – exploitable via SQL injection, XSS, LFI.
+    phpMyAdmin XSS (Old Version) – allows HTML/script injection; high phishing risk.
 
 Mitigations that can use to counter the vulnerabilities - 
 
